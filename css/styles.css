@@ -99,6 +99,10 @@ ul, ol {
     padding: 24px 0;
 }
 
+.header-item {
+    padding: 24px 0;
+}
+
 .link {
     text-decoration: none; 
     color: #434455;
@@ -131,6 +135,7 @@ ul, ol {
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
+        
         }
 
     .adress .link:hover {
@@ -197,11 +202,13 @@ ul, ol {
 .features-list {
     display: flex;
     justify-content: space-around;
+    gap: 24px;
    }
 
 .features-item {
     margin-right: 24px;
     max-width: 264px;
+    width: calc((100% - 3 * 24px) / 4)
 }
 
 .features-list-title {
