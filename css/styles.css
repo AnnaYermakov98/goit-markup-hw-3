@@ -1,0 +1,134 @@
+.header {
+   background-color: #FFFFFF;}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    color: #4D5AE5;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.accent {
+    color: #2E2F42;}
+
+    .link {
+        text-decoration: none; 
+        color: #434455;}
+
+.site-nav .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+
+.link:hover {
+    color: #404BBF;}
+
+.link:focus {
+    text-decoration: underline;
+    color: #404BBF;}
+
+.adress {
+    font-style: normal;
+}
+.adress .link { 
+color: #434455;
+text-decoration: none; 
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+}
+
+.adress .link:hover {
+    color: #404BBF;}
+
+.adress .link:focus {
+    text-decoration: underline;
+    color: #404BBF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    font-weight: 400;
+background-color: #ffff;}
+
+ul, ol {
+    list-style-type:none}
+
+.section {
+    background-color: #2E2F42;}
+
+.main-title {
+    color: #ffff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 107%;
+}
+
+.button {
+    color: #ffff;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;}
+
+.section-team {
+    background-color: #F4F4FD;}
+
+.title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 111%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-card {
+    background-color: #FFFFFF;}
+
+.section-title { 
+        color: #2E2F42;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        line-height: 120%;
+        text-transform: capitalize;
+    }
+    
+.section-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: #2E2F42
+}
+
+.footer .accent {
+    color: #F4F4FD}
+    
+.footer .section-text {
+        color: #F4F4FD;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
