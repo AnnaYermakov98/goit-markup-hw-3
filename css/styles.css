@@ -43,19 +43,7 @@ ul, ol {
         max-width: 100%;
     }
 
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-      }
-    
+
 
         /*header*/ 
 
@@ -96,7 +84,8 @@ ul, ol {
 .header-links {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-item {
@@ -199,6 +188,20 @@ ul, ol {
     padding: 120px 0;
    }
 
+   .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
 .features-list {
     display: flex;
     justify-content: space-around;
@@ -208,7 +211,7 @@ ul, ol {
 .features-item {
     margin-right: 24px;
     max-width: 264px;
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-list-title {
