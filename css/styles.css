@@ -190,7 +190,7 @@ ul, ol {
     padding: 120px 0;
    }
 
-   .visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -211,8 +211,6 @@ ul, ol {
    }
 
 .features-item {
-    margin-right: 24px;
-    max-width: 264px;
     width: calc((100% - 3 * 24px) / 4);
 }
 
