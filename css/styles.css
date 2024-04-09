@@ -27,7 +27,6 @@ ul, ol {
 
       img {
         display: block;
-        margin-bottom: 32px;
         max-width: 100%;
         height: auto;
       }
@@ -36,7 +35,7 @@ ul, ol {
     max-width: 1158px;
     padding-left: 15px; 
     padding-right: 15px;  
-    margin-left: 0 auto; 
+    margin: 0 auto; 
     }
 
     .section {
@@ -54,11 +53,8 @@ ul, ol {
 
 .container-header {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+   
 }
 
 .site-nav {
@@ -118,6 +114,7 @@ ul, ol {
 
     .adress {
         font-style: normal;
+        margin-left: auto;
     }
 
     .adress .link { 
@@ -219,9 +216,22 @@ ul, ol {
 }
 
 .features-list-title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 120%;
+    text-transform: capitalize;
     margin-bottom: 8px;
 }
 
+.features-list-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+}
 
 /*section */
 
@@ -323,7 +333,6 @@ ul, ol {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
 
 
@@ -333,10 +342,19 @@ ul, ol {
     padding: 100px 0;
 }
 
-.footer a {
+
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    color: #4D5AE5;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
     display: inline-block;
-    margin-bottom: 16px;
-  }
+    margin-bottom: 16px; 
+}
 
 .footer .accent {
     color: #F4F4FD}
